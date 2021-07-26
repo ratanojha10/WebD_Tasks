@@ -45,7 +45,7 @@ body {
 .whatsapp{
 	width: 5%;
 	height: auto;
-	position: absolute;
+	position: relative;
 	left: 30px;
 	top: 270px;
 }
