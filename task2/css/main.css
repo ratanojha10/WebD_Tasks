@@ -43,10 +43,10 @@ body {
     height: auto;
 }
 .whatsapp{
-	width: 5%;
+	width: 8%;
 	height: auto;
-	position: relative;
-	left: 30px;
+	position: absolute;
+	left: 20px;
 	top: 270px;
 }
 .whatsapp:hover{
