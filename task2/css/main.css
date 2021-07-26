@@ -1,0 +1,58 @@
+body {
+  background-image: url(../images/bg.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.card {
+	border-radius: 25px;
+	background-color: white;
+	padding: 20px 20px 20px 20px;
+	height: 300px;
+	width:600px;
+	position: absolute;
+	top:30%;
+	left:35%;
+
+}
+.heading{
+	position: absolute;
+	left: 120px;
+	top:10px;
+	font-family: monospace;
+	font-size: 22px;
+}
+.details{
+	position: absolute;
+	left: 80px;
+	top:120px;
+	font-family: "Courier New";
+	font-size: 18px;
+}
+.me{
+	border-radius: 30px;
+	position: absolute;
+	width: 20%;
+    height: auto;
+    padding: 20px;
+    left: 420px;
+    top:100px;																			
+}
+.logo{
+	width: 10%;
+    height: auto;
+}
+.whatsapp{
+	width: 5%;
+	height: auto;
+	position: absolute;
+	right:10px;
+	bottom: 10px;
+}
+.whatsapp:hover{
+    transform: scale(1.2);
+}
+.card:hover{
+	transform: scale(1.2);
+	border:10px red solid;
+}
