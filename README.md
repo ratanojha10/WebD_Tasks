@@ -1,0 +1,3 @@
+# WebD_Tasks
+Tasks given in SPATS...
+Nothing fancy, just basic HTML & CSS for now. Will continue projects on frameworks soon.
