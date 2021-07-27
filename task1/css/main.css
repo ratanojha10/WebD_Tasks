@@ -1,0 +1,40 @@
+body {
+	background-image: url(../images/bg.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  	background-size: 100% 100%;
+  	padding:50px 60px 50px 60px;
+}
+.box{
+	background-color: white;
+	opacity: 0.95;
+	border-radius: 30px;
+	border: 10px black;
+	border-style: double;
+	padding: 20px;
+}
+.kgp{
+	width:4%;
+	height:auto;
+	position: relative;
+	left:5%;
+}
+.startup{
+	width:12%;
+	height:auto;
+	position: relative;
+	left:80%;
+	top:0px;
+}
+.title{
+	font-family:monospace;
+	font-size:28px;
+	text-align: center;
+	position: relative;
+	bottom:60px;
+}
+.form{
+	position: relative;
+	bottom:35px;
+	font-size: 18px;
+}

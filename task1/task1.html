@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task 1</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class='box'>
+		<img src="images/kgp.png" alt="kgp_logo" class='kgp'>
+		<img src="images/startup.png" alt="startup_india" class='startup'>
+		<p class="title">StartUp Form IIT KGP</p>
+		<div class="form">
+			 <form>
+			 	<fieldset style="border:2px black grey; font-family: monospace;">
+			 		<legend>Student Details:</legend>
+
+			 		<label for="name">Name:</label> &nbsp;
+			 		<input type="text" name="name" id="name" placeholder="Name registered in ERP" required style="margin:10px;"><br>
+
+			 		<label for="roll">Roll:</label> &nbsp;
+			 		<input type="text" name="roll" id="roll" placeholder="Institute Roll Number" required style="margin:10px;"><br>
+
+			 		<label for="email">Email:</label> &nbsp;
+			 		<input type="email" name="email" id="email" placeholder="Institute provided @iitkgp.ac.in" required style="margin:10px;"><br>
+
+			 		Gender: &nbsp;
+			 		<label for="male">Male</label>
+			 		<input type="radio" name="gender" id="male" vale="male"> &nbsp; 
+			 		<label for="female">Female</label>
+			 		<input type="radio" name="gender" id="female" value="female"> &nbsp;
+			 		<label for="other">Other</label>
+			 		<input type="radio" name="gender" id="other" value="other"> <br>
+
+			 		Degree Pursuing: &nbsp;
+			 		<label for="UG">UG</label>
+			 		<input type="radio" name="degree" id="UG" value="UG"> &nbsp;
+			 		<label for="PG">PG</label>
+			 		<input type="radio" name="gender" id="PG" value="PG"> &nbsp;
+			 		<label for="phd">PhD</label>
+			 		<input type="radio" name="gender" id="phd" value="phd">
+
+
+			 	</fieldset>
+			 	<br>
+			 	<fieldset style="border:2px black grey; font-family: monospace;">
+			 		<legend >StartUp Details:</legend>
+
+			 		<label for="idea">StartUp Idea:</label> &nbsp;
+			 		<textarea id="idea" name="idea" placeholder="Summarise your idea and business model..." required maxlength="1000" minlength="200" rows="10" cols="100" style="resize:none;"></textarea><br><br> 
+
+			 		<label for="fund">Funding Required:</label> &nbsp;
+			 		<input type="number" name="fund" id="fund" placeholder="Expected Amount in ₹" required min="10000" max="200000"><br><br>
+
+			 		<label for="file">Related Documents (if any):</label>
+			 		<input type="file" name="file" id='file'>
+
+
+			 	</fieldset>
+			 	<br>
+			 	<div style="text-align: center;">
+			 	<button type="reset">RESET</button>&nbsp;
+			 	<button type="submit">SUBMIT</button>
+			 </div>
+			 </form>
+		</div>
+	</div>
+</body>
+</html>
