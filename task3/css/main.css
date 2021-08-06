@@ -85,6 +85,9 @@ nav ul li:hover > .sub{
 	flex-direction: column;
 	justify-content: space-between;
 }
+.hamburger:hover{
+	background-color: #cccccc
+}
 .cancel{
 	height: auto;
 	width: 30px;
